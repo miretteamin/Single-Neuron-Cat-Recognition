@@ -21,7 +21,7 @@ train_dataset = h5py.File('Datasets/Cats/train_catvnoncat.h5/train_catvnoncat.h5
 train_set_x_orig = np.array(train_dataset["train_set_x"][:])
 train_set_y_orig = np.array(train_dataset["train_set_y"][:])
 
-test_dataset = h5py.File('D:/miret/Documents/Datasets/Cats/test_catvnoncat.h5', 'r')
+test_dataset = h5py.File('Datasets/Cats/test_catvnoncat.h5', 'r')
 test_set_x_orig = np.array(test_dataset["test_set_x"][:])
 test_set_y_orig = np.array(test_dataset["test_set_y"][:])
 
